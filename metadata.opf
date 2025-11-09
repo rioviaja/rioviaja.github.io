@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
     <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
-        <dc:identifier opf:scheme="calibre" id="calibre_id">ab560e26-4f36-4469-8c6e-644f1fbfc48c</dc:identifier>
-        <dc:identifier opf:scheme="uuid" id="uuid_id">ab560e26-4f36-4469-8c6e-644f1fbfc48c</dc:identifier>
+        <dc:identifier opf:scheme="calibre" id="calibre_id">6ce77441-66f7-485c-9ed5-60091ea4322f</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">6ce77441-66f7-485c-9ed5-60091ea4322f</dc:identifier>
         <dc:title>Zapatos nuevos y corazones rotos</dc:title>
         <dc:creator opf:file-as="不明" opf:role="aut">Riota Adachi</dc:creator>
         <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.14.0) [https://calibre-ebook.com]</dc:contributor>

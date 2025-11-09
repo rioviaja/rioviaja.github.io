@@ -1,40 +1,3 @@
-@page {
-    margin-bottom: 5pt;
-    margin-top: 5pt
-    }
-@font-face {
-    font-style: normal;
-    font-weight: 400;
-    font-stretch: normal;
-    font-size: 100%;
-    font-family: "Times";
-    font-variant: normal;
-    src: url(fonts/000002.ttf) format(truetype)
-    }
-@font-face {
-    font-style: normal;
-    font-weight: 700;
-    font-stretch: normal;
-    font-size: 100%;
-    font-family: "Times";
-    font-variant: normal;
-    src: url(fonts/000001.ttf) format(truetype)
-    }
-@font-face {
-    font-style: normal;
-    font-weight: 400;
-    font-stretch: normal;
-    font-size: 100%;
-    font-family: "Nanum Myeongjo";
-    font-variant: normal;
-    src: url(fonts/000000.ttf) format(truetype)
-    }
-
-@page {
-    margin-bottom: 5pt;
-    margin-top: 5pt
-    }
-
 .body {
     background: transparent;
     display: block;
@@ -51,7 +14,7 @@
     font-family: "Times";
     font-stretch: normal;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1.2
     }
 .c2 {
@@ -59,7 +22,7 @@
     font-family: "Times";
     font-stretch: normal;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.2
     }
 .c3 {
@@ -78,8 +41,7 @@
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
-    font-weight: 400;
-    line-height: 1.2
+    font-weight: 400
     }
 .c5 {
     background: transparent;
@@ -98,7 +60,6 @@
     font-weight: 400
     }
 .calibre {
-    background-color: black;
     display: block;
     font-size: 1em;
     margin-bottom: 0;
@@ -109,28 +70,10 @@
     padding-right: 0
     }
 .calibre1 {
-    display: block
-    }
-.calibre2 {
-    height: auto;
-    max-width: 100%;
-    width: auto
-    }
-.calibre3 {
-    display: block;
-    font-size: 1em;
-    margin-bottom: 0;
-    margin-left: 5pt;
-    margin-right: 5pt;
-    margin-top: 0;
-    padding-left: 0;
-    padding-right: 0
-    }
-.calibre4 {
     display: block;
     line-height: 1.2
     }
-.calibre5 {
+.calibre2 {
     display: block;
     list-style-type: decimal;
     margin-bottom: 0;
@@ -142,7 +85,7 @@
     padding-right: 0;
     padding-top: 0
     }
-.calibre6 {
+.calibre3 {
     display: block;
     list-style-type: decimal;
     margin-bottom: 1em;
@@ -150,10 +93,10 @@
     margin-right: 0;
     margin-top: 1em
     }
-.calibre7 {
+.calibre4 {
     display: list-item
     }
-.calibre8 {
+.calibre5 {
     text-decoration: none
     }
 .nav-body {
@@ -168,11 +111,11 @@
     color: #000;
     display: block;
     font-family: "Times";
-    font-size: 1em;
+    font-size: 1.29167em;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
-    font-weight: 400;
+    font-weight: 700;
     hyphens: none;
     letter-spacing: 0;
     line-height: 1.2;
@@ -184,7 +127,7 @@
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    text-align: left;
+    text-align: center;
     text-indent: 0;
     text-shadow: none;
     text-transform: none
@@ -221,6 +164,34 @@
     -webkit-hyphens: none;
     -webkit-text-stroke-color: initial;
     -webkit-text-stroke-width: initial;
+    color: #000;
+    display: block;
+    font-family: "Times";
+    font-size: 1em;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    hyphens: none;
+    letter-spacing: 0;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: left;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none
+    }
+.p3 {
+    -webkit-hyphens: none;
+    -webkit-text-stroke-color: initial;
+    -webkit-text-stroke-width: initial;
     break-after: page;
     color: #000;
     display: block;
@@ -247,7 +218,7 @@
     text-shadow: none;
     text-transform: none
     }
-.p3 {
+.p4 {
     -webkit-hyphens: none;
     -webkit-text-stroke-color: initial;
     -webkit-text-stroke-width: initial;
@@ -275,21 +246,21 @@
     text-shadow: none;
     text-transform: none
     }
-.p4 {
+.p5 {
     -webkit-hyphens: none;
     -webkit-text-stroke-color: initial;
     -webkit-text-stroke-width: initial;
     color: #000;
     display: list-item;
     font-family: "Times";
-    font-size: 1em;
+    font-size: 0.83333em;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
     hyphens: none;
     letter-spacing: 0;
-    line-height: 1.2;
+    line-height: 1.227em;
     list-style-position: inside;
     list-style-type: decimal;
     margin-bottom: 0;
@@ -344,5 +315,37 @@
     }
 .pcalibre5:active {
     color: inherit
+    }
+
+@page {
+    margin-bottom: 5pt;
+    margin-top: 5pt
+    }
+@font-face {
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 100%;
+    font-family: "Times";
+    font-variant: normal;
+    src: url(fonts/000002.ttf) format(truetype)
+    }
+@font-face {
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+    font-size: 112.5%;
+    font-family: "Times";
+    font-variant: normal;
+    src: url(fonts/000001.ttf) format(truetype)
+    }
+@font-face {
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 100%;
+    font-family: "Nanum Myeongjo";
+    font-variant: normal;
+    src: url(fonts/000000.ttf) format(truetype)
     }
 
